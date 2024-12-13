@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_USER_AGENT} (HybridBot|Mail.RU_Bot|ClaudeBot|GeedoBot|keys-so-bot|GPTBot|Bytespider|Amazonbot|proximic|bingbot|Sogou|rogerbot|mj12bot|majestic|ahrefs|semrushbot|beekport|archiver|teleport|megaindex|baiduspider|linkpadbot|yahoo|msnbot|bingpreview|dotbot|psbot|serpstatbot|gigabot|alphabot|aspiegelbot|xforce-security|semantic-visions|barkrowler|admantx|GetIntent|CriteoBot|BLEXBot|python-requests|PetalBot|seostar|zgrab|Go-http-client|CensysInspect|paloaltonetworks|SiteAnalyzerbot|dataforseo|Pinterestbot|applebot|CCBot|NBot/|Photon|weborama-fetcher|GeedoProductSearch|Spawning-AI|netEstate|Dataprovider|facebookexternalhit|meta-externalagent|ImagesiftBot|InternetMeasurement|OAI-SearchBot|SeekportBot|Scrapy) [NC]
+
+RewriteRule ^ – [F]
